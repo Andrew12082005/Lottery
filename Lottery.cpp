@@ -75,5 +75,6 @@ void lottery(int n, long long earn){
         delete[] num[i];
     }
     delete[] num;
+    delete[] lnum;
     cout<<"Total Earn : "<<earn<<endl;
 }
